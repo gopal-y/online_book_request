@@ -5,7 +5,7 @@
 
 <?php
 error_reporting(0);
-$con=mysql_connect("sql309.epizy.com","epiz_21810205","sridivya083");
+$con=mysql_connect("","","");//connection cred
   if(mysql_error()) echo mysql_error();
 $db=mysql_select_db("epiz_21810205_bookstore");
 $isbn=$_POST["isbn"];
